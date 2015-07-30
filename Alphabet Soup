@@ -1,0 +1,8 @@
+def AlphabetSoup(str)
+
+  str.gsub!(' ','')
+  
+  # code goes here
+  return str.split('').sort.join('')
+         
+end
