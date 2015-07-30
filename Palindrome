@@ -1,6 +1,9 @@
 def Palindrome(str)
 
   str.gsub!(' ','')
-  return str == str.reverse 
+  str.downcase!
+  
+  return str==str.reverse
          
 end
+   
