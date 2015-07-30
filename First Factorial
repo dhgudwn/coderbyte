@@ -1,0 +1,7 @@
+def FirstFactorial(num)
+
+  factor = (2..num).inject(:*)
+  return factor
+         
+end
+   
