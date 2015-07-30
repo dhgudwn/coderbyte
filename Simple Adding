@@ -1,0 +1,6 @@
+def SimpleAdding(num)
+
+  simadd = (1..num).inject(:+)
+  return simadd 
+         
+end
